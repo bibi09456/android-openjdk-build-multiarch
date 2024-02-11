@@ -2284,7 +2284,7 @@ index 9371bc001..ab7dd0fc0 100644
  typedef int futimens_func(int, const struct timespec *);
  typedef int lutimes_func(const char *, const struct timeval *);
  typedef DIR* fdopendir_func(int);
-@@ -149,10 +150,46 @@ static fstatat64_func* my_fstatat64_func = NULL;
+@@ -149,13 +150,49 @@ static fstatat64_func* my_fstatat64_func = NULL;
  static unlinkat_func* my_unlinkat_func = NULL;
  static renameat_func* my_renameat_func = NULL;
  static futimesat_func* my_futimesat_func = NULL;
